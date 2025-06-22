@@ -1,0 +1,20 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.io import wavfile
+
+#LOADING DATA FROM WAV FILE
+fs,data=wavfile.read(r"C:\Users\KIIT0001\Downloads\file_example_WAV_10MG.wav")
+#CONVERT TO COMPLEX IQ
+samples=data[:,0] + 1j*data[:,1]
+
+#PLOTTING SPECTRUM
+fft_data=np.fft.fftshift(np.fft.fft(samples))
+power = 20*np.log10(np.abs(fft_data))
+freqs = np.fft.fftshift(np.fft.fftfreq(len(samples), 1/fs))
+
+plt.plot(freqs/1e6, power)
+plt.title("Spectrum of recorded IQ data")
+plt.xlabel("Frequency (MHz)")
+plt.ylabel("Power (dB)")
+plt.grid()
+plt.show()
