@@ -7,17 +7,17 @@ With support for `.wav` input files, real-time spectrum analysis, peak detection
 
 ---
 
-## 🎯 Features
+##  Features
 
-- 🎧 **WAV Signal Input** – Simulate RF signals using `.wav` audio files.
-- 📊 **FFT Spectrum Visualization** – View frequency spectrum in real-time.
+-  **WAV Signal Input** – Simulate RF signals using `.wav` audio files.
+-  **FFT Spectrum Visualization** – View frequency spectrum in real-time.
 -  **Spectrogram Plotting** – Understand signal variation over time.
-- 🔍 **Peak Frequency Detection** – Identify dominant frequency components.
-- 🧩 **Modular Design** – Built for future enhancements like modulation/demodulation or SDR hardware integration.
+-  **Peak Frequency Detection** – Identify dominant frequency components.
+-  **Modular Design** – Built for future enhancements like modulation/demodulation or SDR hardware integration.
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 ![image](https://github.com/user-attachments/assets/28855a8f-b3eb-466e-b502-a1e5aa966f83)
 
@@ -26,7 +26,7 @@ With support for `.wav` input files, real-time spectrum analysis, peak detection
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Tool / Library | Use |
 |----------------|-----|
