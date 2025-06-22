@@ -1,10 +1,6 @@
 # DIGITAL-RADIO-TOOLKIT
 A  Python-based Software-Defined Radio (SDR) signal analyzer designed for simulating, visualizing, and analyzing radio signals without requiring physical hardware. It enables users to inspect .wav audio signals, compute Fast Fourier Transforms (FFT), generate spectrograms, and detect dominant frequencies—all in a clean and extensible codebase.
 
-
-
-With support for `.wav` input files, real-time spectrum analysis, peak detection, and modular signal processing, **WaveScope** is the perfect project for your portfolio or academic exploration into telecommunications and digital signal processing (DSP).
-
 ---
 
 ##  Features
@@ -38,7 +34,7 @@ With support for `.wav` input files, real-time spectrum analysis, peak detection
 
 ---
 
-## 🧪 Installation
+## Installation
 
 ```bash
 git clone https://github.com/yourusername/WaveScope.git
