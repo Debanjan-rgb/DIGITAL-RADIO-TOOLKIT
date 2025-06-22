@@ -19,8 +19,8 @@ With support for `.wav` input files, real-time spectrum analysis, peak detection
 
 ## 🖼️ Preview
 
-<img src="assets/spectrum_example.png" alt="Spectrum Example" width="600"/>
-<img src="assets/spectrogram_example.png" alt="Spectrogram Example" width="600"/>
+![image](https://github.com/user-attachments/assets/28855a8f-b3eb-466e-b502-a1e5aa966f83)
+
 
 > *Example spectrum and spectrogram visualizations from a sample `.wav` signal.*
 
